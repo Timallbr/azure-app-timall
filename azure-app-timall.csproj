@@ -5,6 +5,13 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>azure_app_timall</RootNamespace>
+    <ApplicationInsightsResourceId>/subscriptions/427bb886-3db4-400e-bd96-d4b17c026f72/resourceGroups/az-group-rg/providers/microsoft.insights/components/az-webapp-tim-vs2022</ApplicationInsightsResourceId>
+    <UserSecretsId>38e4639e-201d-4520-a6f0-72dcb3f43bd4</UserSecretsId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.Identity" Version="1.13.0" />
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.22.0" />
+  </ItemGroup>
 
 </Project>
